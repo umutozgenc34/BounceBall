@@ -9,6 +9,7 @@ TagManager:
   - Boundary
   - GameOverBar
   - Ball
+  - LoseCheck
   layers:
   - Default
   - TransparentFX
