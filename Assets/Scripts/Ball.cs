@@ -11,6 +11,7 @@ public class Ball : MonoBehaviour
     
     
     
+    
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,6 +31,7 @@ public class Ball : MonoBehaviour
         {
             gameObject.SetActive(false);
             panelController.HideTimerText();
+            
             EndGameManager.endManager.gameOver = true;
             EndGameManager.endManager.StartResolveSequence();
         }
