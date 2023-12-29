@@ -9,6 +9,9 @@ public class PanelController : MonoBehaviour
     [SerializeField] private GameObject loseScreen;
     [SerializeField] private TextMeshProUGUI timerText;
 
+    [SerializeField] private AudioSource loseSource;
+    [SerializeField] private AudioSource winSource;
+
     int timer= 0;
 
     void Start()
@@ -31,12 +34,14 @@ public class PanelController : MonoBehaviour
 
     public void ActivateWinScreen()
     {
+        winSource.Play();
         cGroup.alpha = 1;
         winScreen.SetActive(true);
     }
 
     public void ActivateLoseScreen()
     {
+        loseSource.Play();
         cGroup.alpha = 1;
         loseScreen.SetActive(true);
     }

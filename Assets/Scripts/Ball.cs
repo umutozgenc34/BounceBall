@@ -8,10 +8,11 @@ public class Ball : MonoBehaviour
     [SerializeField] private float bounceForce;
     [SerializeField] private float maxSpeed = 10f;
     [SerializeField] private PanelController panelController;
+
+    [SerializeField] private AudioSource source1;
+    [SerializeField] private AudioSource source2;
     
-    
-    
-    
+
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,14 +27,20 @@ public class Ball : MonoBehaviour
         if (collision.gameObject.CompareTag("Paddle"))
         {
             StartBounce();
+            source1.Play();
         }
         if (collision.gameObject.CompareTag("LoseCheck"))
         {
+            
             gameObject.SetActive(false);
             panelController.HideTimerText();
             
             EndGameManager.endManager.gameOver = true;
             EndGameManager.endManager.StartResolveSequence();
+        }
+        if (collision.gameObject.CompareTag("Box"))
+        {
+            source2.Play();
         }
     }
 
