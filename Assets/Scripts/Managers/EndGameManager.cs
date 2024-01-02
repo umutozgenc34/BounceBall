@@ -71,4 +71,6 @@ public class EndGameManager : MonoBehaviour
     {
         panelController = pC;
     }
+
+    
 }

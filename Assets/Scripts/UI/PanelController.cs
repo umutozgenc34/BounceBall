@@ -7,6 +7,7 @@ public class PanelController : MonoBehaviour
     [SerializeField] private CanvasGroup cGroup;
     [SerializeField] private GameObject winScreen;
     [SerializeField] private GameObject loseScreen;
+    
     [SerializeField] private TextMeshProUGUI timerText;
 
     [SerializeField] private AudioSource loseSource;
@@ -45,6 +46,7 @@ public class PanelController : MonoBehaviour
         cGroup.alpha = 1;
         loseScreen.SetActive(true);
     }
+
 
     public void HideTimerText()
     {

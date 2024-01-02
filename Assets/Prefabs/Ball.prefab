@@ -57,7 +57,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78,8 +78,8 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 949e24ed343fad64a90255f069cedc70, type: 3}
-  m_Color: {r: 0.06897471, g: 0.27143696, b: 0.5849056, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 5e2f9aab2b01b8f4a803ac40a1af525e, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -101,8 +101,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e37ffd7c91be892459eb304139a32648, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bounceForce: 2
-  maxSpeed: 15
+  bounceForce: 3
+  maxSpeed: 12
   panelController: {fileID: 0}
   source1: {fileID: 3801941485650429374}
   source2: {fileID: 5212887158814511731}
