@@ -29,8 +29,8 @@ public class AndroidExampleNotification : MonoBehaviour
 
         AndroidNotification notification = new AndroidNotification()
         {
-            Title = "Where Are You",
-            Text = "Come back and play",
+            Title = "Heyyy!",
+            Text = "Come back and continue the adventure.",
             SmallIcon = "default",
             LargeIcon = "default",
             FireTime = timeToFire

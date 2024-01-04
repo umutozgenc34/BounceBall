@@ -1076,6 +1076,11 @@ PolygonCollider2D:
       - {x: 0, y: -0.25}
       - {x: 0.5, y: 0}
   m_UseDelaunayMesh: 0
+--- !u!1 &962420736 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2482998602126848462, guid: 2d232920d4a8b0c43ab541d4634fd827, type: 3}
+  m_PrefabInstance: {fileID: 9164329101184626726}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1331416451
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2311,6 +2316,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 806521625235971339, guid: f2852007c7cab214eb6a0be68f17bc49, type: 3}
+      propertyPath: paddle
+      value: 
+      objectReference: {fileID: 962420736}
+    - target: {fileID: 806521625235971339, guid: f2852007c7cab214eb6a0be68f17bc49, type: 3}
       propertyPath: panelController
       value: 
       objectReference: {fileID: 534836640}
@@ -2626,7 +2635,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &5163521034560244041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3090,7 +3099,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8619565362521938164}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0

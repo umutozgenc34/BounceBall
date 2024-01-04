@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2000862116832137371
+--- !u!1 &5582217138094613918
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,22 +8,22 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1659357690007205639}
-  - component: {fileID: 4370344808430067317}
+  - component: {fileID: 2931506867020518671}
+  - component: {fileID: 3797187074515440731}
   m_Layer: 0
-  m_Name: InterstitialAd
+  m_Name: AndroidNotification
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1659357690007205639
+--- !u!4 &2931506867020518671
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000862116832137371}
+  m_GameObject: {fileID: 5582217138094613918}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -32,19 +32,17 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4370344808430067317
+--- !u!114 &3797187074515440731
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2000862116832137371}
+  m_GameObject: {fileID: 5582217138094613918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 35f0e7b67e1efca419ebabbb52135848, type: 3}
+  m_Script: {fileID: 11500000, guid: e83c96aa7e4afde42a8cc67e531c5b75, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _androidAdUnitId: Interstitial_Android
-  _iOsAdUnitId: Interstitial_iOS
-  bannerAd: {fileID: 0}
-  timeToSkip: 5
+  notificationId: 0
+  channelIdExample: Channel A
